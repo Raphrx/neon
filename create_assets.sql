@@ -1,0 +1,6 @@
+CREATE TABLE assets (
+    ticker VARCHAR(50) PRIMARY KEY,
+    name VARCHAR(50),
+    category VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
